@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Keat </title>
+    </head>
+    <style>
+        table{border-collapse :collapse;}
+        td{border: 1px solid black; width: 30px; height: 30px; text-align: center; background: rgba(0, 0, 0, 0.39);}
+        td.opened{background: #fff;}
+    </style>
+    <body>
+        <input type="number" id="가로" value = "10">
+        <input type="number" id="세로" value = "10">
+        <input type="text" id="mine" value = "20">
+        <button id="btn">실행</button>
+        <table id="table">
+         <thead>
+          <tr>
+             <td><span id="timer">0</span>초</td>
+          </tr>   
+         </thead>
+         <tbody></tbody>
+        </table>
+        <script src="Bumbgame.js"></script>
+    </body>
+</html>
